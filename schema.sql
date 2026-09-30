@@ -1,0 +1,6 @@
+-- Run this once against the GS_HALODB database (Neon SQL editor or psql).
+CREATE TABLE IF NOT EXISTS signups (
+  id         BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  email      TEXT NOT NULL UNIQUE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);

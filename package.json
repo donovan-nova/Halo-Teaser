@@ -1,0 +1,10 @@
+{
+  "name": "halo-teaser",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Halo Finance coming-soon teaser (static site + email capture to Neon).",
+  "type": "module",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4"
+  }
+}
